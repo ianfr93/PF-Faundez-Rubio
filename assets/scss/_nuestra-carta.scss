@@ -1,0 +1,249 @@
+/** tarjetas producto-info **/
+
+.contenedor-card {
+  padding: 1.9rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Barra search */
+
+.contenedor-menu {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.9rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+}
+
+i.fa-search {
+  font-size: 16px;
+  margin-left: -40px;
+  color: #000000;
+  cursor: pointer;
+
+  &:hover {
+    color: $button-principal;
+  }
+}
+
+/* Fin Barra search */
+
+.menu-categorias {
+  list-style: none;
+ 
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px 0;
+
+  li {
+    margin: 0 10px;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.202);
+    color: $color-cuarto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 1px solid $color-cuarto;
+
+    &:hover {
+      background-color: $color-Bordes;
+    }
+  }
+}
+
+select:focus {
+  border-color: $color-Bordes;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.pagination {
+  margin: 20px;
+
+  button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+  }
+}
+
+button {
+
+  &.prev,
+  &.next {
+    background-color: #d7d7d7;
+    color: #000000;
+  }
+
+  &:hover {
+    background-color: $button-principal;
+  }
+
+  &.prev:hover,
+  &.next:hover {
+    background-color: $color-rojo-puro;
+  }
+}
+
+.product-card {
+  width: calc(100% - 20px);
+  height: auto;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 10px;
+  background: $color-puro;
+  position: relative;
+  transition: background-color 0.3s ease; 
+
+  .badge {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: $color-rojo-puro;
+    color: $color-cuarto;
+    padding: 3px 20px;
+    border-radius: 1px;
+  }
+
+  .product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px;
+    background: #000000;
+    border: 2px solid transparent; 
+
+    img {
+      width: 100%;
+      height: auto;
+      transition: border-color 0.3s ease; 
+    }
+  }
+
+  .product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+
+  .product-details {
+    padding: 15px;
+
+    h4 a {
+      font-weight: 500;
+      display: block;
+      text-transform: uppercase;
+      color: $color-cuarto;
+      text-decoration: none;
+      transition: 0.3s;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 22px;
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+
+    div {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  .product-price {
+    color: $color-rojo-puro;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+    small {
+      font-size: 80%;
+      font-weight: 400;
+      text-decoration: line-through;
+      display: inline-block;
+      margin-right: 3px;
+    }
+  }
+
+  .product-links {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+    a {
+      display: inline-block;
+      margin-left: 5px;
+      color: #e1e1e1;
+      transition: 0.3s;
+      font-size: 17px;
+
+      &:hover {
+        color: $color-Bordes;
+      }
+    }
+  }
+
+  &:hover {
+    background: linear-gradient(to right, $color-puro, $color-Secundario); 
+
+
+    .badge {
+      background: darken($color-Secundario, 10%);
+    }
+
+    .product-tumb {
+      background: linear-gradient(to right, $color-puro); 
+
+      img {
+        background: linear-gradient(to right, $color-puro, $color-Secundario); 
+      }
+    }
+   
+  }
+}

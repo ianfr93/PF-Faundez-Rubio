@@ -1,0 +1,108 @@
+/* // banner ubicacion */
+
+.container-fluid-04 {
+  margin-top: auto;
+  padding: 0px;
+}
+
+.container-banner-ubicacion {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* fin banner ubicacion */
+
+.container-medios-de-pagos {
+  background-color: $color-cuarto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+
+.medios-de-pago img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+/** banner-video **/
+
+.contenedor-banner-video,
+.contenedor-card {
+  overflow: hidden;
+}
+
+.contenedor-banner-video {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.44)), url(../Images/Nuestra-carta/banner-video.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-video {
+  width: 60vw;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+video {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin: 0;
+
+  &[poster] {
+    max-width: 100%;
+  }
+}
+
+.overlay-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: $color-cuarto;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  max-width: 600px;
+  z-index: 2;
+}
+
+.overlay {
+  h1 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+  p {
+    font-size: 16px;
+    color: $color-cuarto;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/** fin banner-video **/

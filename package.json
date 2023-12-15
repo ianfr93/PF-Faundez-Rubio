@@ -1,0 +1,21 @@
+{
+  "name": "preentrega3-faundez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass assets/scss/estilos.scss assets/css/estilos.css",
+    "sass:watch": "sass --watch assets/scss/estilos.scss:assets/css/estilos.css",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

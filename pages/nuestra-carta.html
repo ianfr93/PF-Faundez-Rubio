@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Cadena de restaurantes de comida japonesa y peruana, ubicados en chile con sistema delivery." />
+    <meta name="keywords" content="comida, sushi, peruano, gastronomia, platos, categorias, buscador, carrito" />
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Oceanika sushi restaurant</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/Images/fav.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- estilos -->
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="grid-container">
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg  navbar-light d-none d-lg-block" id="navbar-1_nav_top">
+        <div class="container-arriba text-light">
+            <div class="w-100 d-flex justify-content-between">
+
+                <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                    <img src="../assets/Images/logos/logo-nav.png" alt="Logo" style="max-height: 50px;">
+                </a>
+                <div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item-2">
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-shopping-cart"></i> Cart (0)
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-user"></i> Username
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-list"></i> My Orders</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i> My Cart</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="redes-sociales">
+                    <a class="text-light" href="https://fb.com/oceanikasushi.cl" target="_blank" rel="sponsored"><i
+                            class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://oceanikasushi.cl/" target="_blank"><i
+                            class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://oceanikasushi.cl/" target="_blank"><i
+                            class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://oceanikasushi.cl/" target="_blank"><i
+                            class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+    <!-- Header -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-abajo d-flex justify-content-between align-items-center">
+
+                <!-- Logo visible solo en modo responsive -->
+                <a class="navbar-brand text-success logo h1 align-self-center d-lg-none" href="index.html">
+                    <img src="../assets/Images/logos/logo-nav.png" alt="Logo" style="max-height: 50px;">
+                </a>
+
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-1_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="sections-1">
+                    <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+                        id="navbar-1_main_nav">
+                        <div class="flex-fill">
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                                <!-- Secciones -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/nuestra-carta.html">Nuestra Carta</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/quienes- somos.html">Quiénes Somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/nuestros-locales.html">Locales</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Botones al lado derecho -->
+                        <div class="botones-1">
+                            <ul class="navbar-nav">
+                                <li class=" nav-item d-none d-lg-block">
+                                    <a class="nav-link" href="#">
+                                        <button class="btn btn-outline-light btn-support" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Soporte por correo electrónico">
+                                            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                                        </button>
+                                    </a>
+                                </li>
+                                <li class="nav-item d-none d-lg-block">
+                                    <a class="nav-link" href="#">
+                                        <button class="btn btn-outline-light bton-Whatsapp" data-bs-toggle="tooltip"
+                                            data-bs-placement="bottom" title="Soporte whatsapp">
+                                            <i class="fab fa-whatsapp"></i>
+                                            ¡Hablemos!
+                                        </button>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- Close Header -->
+
+
+
+    <main class="container-fluid-09">
+
+
+
+        <!--!banner video. -->
+        <div class="contenedor-banner-video">
+            <div class="banner-video">
+                <div class="overlay-container">
+
+                    <h1>Gastronomia Peruana</h1>
+                    <p>Tenemos una Selección de más de 20 platos disponibles de gastronomía peruana para tí a disfrutar
+                        <br>
+                    </p>
+
+
+                </div>
+
+                <video controls poster="../assets/Images/Nuestra-carta/banner-video.jpg"loop autoplay preload="auto">
+                    <source src="../assets/multimedia/videos/sushi-banner.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+
+        <!--! fin banner video. -->
+
+
+        <!--!card-info -->
+
+        <div class="contenedor-menu">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar...">
+                <i class="fa-solid fa-search"></i>
+            </div>
+
+
+            <div class=" col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="row">
+                    <ul class="menu-categorias">
+                        <li><a href="#">Sushi Burger</a></li>
+                        <li><a href="#">Gastronomía peruana</a></li>
+                        <li><a href="#">Sushi</a></li>
+                        <li><a href="#">Bebestibles</a></li>
+                        <li><a href="#">Rolls nikel</a></li>
+                        <li><a href="#">Para picar</a></li>
+                        <li><a href="#">postres</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="contenedor-card">
+
+            <!--!card-info -->
+            <div class="container card-container" data-aos="fade-left" data-aos-duration="500">
+                <div class="row">
+                    <!-- Repite esta estructura para cada tarjeta -->
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="800">
+                            <div class="badge">10%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-1.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-1</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">10%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-2.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-2</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">15%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-3.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-3</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">5%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-4.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-4</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">3%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-5.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-5</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">8%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-6.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-6</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">10%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-7.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-7</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">5%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-8.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-8</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">2%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-9.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-9</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">8%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-10.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-10</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">10%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-11.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-11</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-6">
+                        <div class="product-card" data-aos="flip-up" data-aos-duration="500">
+                            <div class="badge">3%</div>
+                            <div class="product-tumb">
+                                <img src="../assets/Images/Nuestra-carta/img-12.jpg" alt="">
+                            </div>
+                            <div class="product-details">
+
+                                <h4><a href="">plato-12</a></h4>
+
+                                <div class="product-bottom-details">
+                                    <div class="product-price"><small>$96.00</small>$230.99</div>
+                                    <div class="product-links">
+                                        <a href=""><i class="fa fa-heart"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="pagination">
+                <button class="prev">&lt;</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="next"> &gt;</button>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <article class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 contenedor-08-center">
+            <footer class="footer">
+                <div class="container-logo">
+                    <div class="row">
+                        <!-- Logo -->
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="logo-footer">
+                                <img src="../assets/Images/footer/logo-footer.png" alt="Logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Redes de contacto -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center mb-4">
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="#"><i class="fab fa-telegram"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Información de contacto -->
+                        <div class="container-CSH">
+                            <div class="row text-center">
+                                <div class="col-lg-2 col-md-12 col-sm-12 mb-4 mx-auto">
+                                    <div class="contacto text-center">
+                                        <h4>Contacto</h4>
+                                        <p>Santiago, Centro AV Santa Rosa 298</p>
+                                        <p class="telefono">Telefono: +56 9 59709197</p>
+                                        <p class="email">oceanikasushi@mail.com</p>
+                                    </div>
+                                </div>
+
+                                <!-- Sección Subscribete -->
+                                <div class="col-lg-7 col-md-12 col-sm-12 mb-4 mx-auto">
+                                    <div class="footer-subscribete text-center">
+                                        <h4>Subscribete</h4>
+                                        <p>Síguenos en nuestras redes sociales o puedes <br> subscribirte para
+                                            recibir las últimas noticias.</p>
+                                        <div class="subscribete-form">
+                                            <form action="#">
+                                                <input type="text" placeholder="Email Address">
+                                                <button><i class="fa-solid fa-paper-plane"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Horarios -->
+                                <div class="col-lg-2 col-md-12 col-sm-12 mb-4 mx-auto">
+                                    <div class="horarios text-center">
+                                        <h4>Horarios</h4>
+                                        <p>Lunes a Viernes de 12:00 pm a 22:30 hrs</p>
+                                        <p class="sabado">Sábado de 12:00 pm a 21:00 hrs</p>
+                                        <p class="domingo">Domingo de 12:00 pm a 21:00 hrs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Copyright -->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                                <div class="copyright">
+                                    <span>© Copyright - Restaurante | Designed By <span class="highlight-text">Ian
+                                            Faundez Templates</span> - Powered by I.A.F.R.U-Enterprise</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </article>
+
+
+
+
+    <!--! boton subir. -->
+    <a href="#" class="subir"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 500 500">
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 
+32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 
+12.5-45.3 0s-12.5-32.8 0-45.3l192-192z" /></svg></i></a>
+    <!--! fin boton subir. -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
