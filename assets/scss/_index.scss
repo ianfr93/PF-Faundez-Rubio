@@ -1,7 +1,7 @@
 /* Agrega más estilos según sea necesario */
 .container-fluid-01 {
   background: linear-gradient(rgba(3, 1, 1, 0.587), rgba(0, 0, 0, 0.44)),
-    url(../Images/BG/BG-quienes-somos.jpg) center center / cover;
+    url(../images/BG/BG-quienes-somos.jpg) center center / cover;
   background-color: var(--color-main);
 
 
@@ -57,7 +57,7 @@
 }
 
 .container-fluid-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -85,7 +85,7 @@
 }
 
 .contenedor-info-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -137,7 +137,7 @@
 }
 
 .container-top-10 {
-  background-image: url(../Images/BG/BG-top-10.jpg);
+  background-image: url(../images/BG/BG-top-10.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -204,7 +204,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 0;
-  background-image: url(../Images/BG/BG-restaurant.jpg);
+  background-image: url(../images/BG/BG-restaurant.jpg);
   padding-top: 50px;
   z-index: 1;
 }

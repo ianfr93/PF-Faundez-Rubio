@@ -121,7 +121,7 @@ li a {
 
 /* Agrega más estilos según sea necesario */
 .container-fluid-01 {
-  background: linear-gradient(rgba(3, 1, 1, 0.587), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-quienes-somos.jpg) center center/cover;
+  background: linear-gradient(rgba(3, 1, 1, 0.587), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-quienes-somos.jpg) center center/cover;
   background-color: var(--color-main);
 }
 .container-fluid-01 h1 {
@@ -172,7 +172,7 @@ li a {
 }
 
 .container-fluid-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -197,7 +197,7 @@ li a {
 }
 
 .contenedor-info-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -245,7 +245,7 @@ li a {
 }
 
 .container-top-10 {
-  background-image: url(../Images/BG/BG-top-10.jpg);
+  background-image: url(../images/BG/BG-top-10.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -304,7 +304,7 @@ li a {
   justify-content: space-between;
   align-items: flex-start;
   margin: 0;
-  background-image: url(../Images/BG/BG-restaurant.jpg);
+  background-image: url(../images/BG/BG-restaurant.jpg);
   padding-top: 50px;
   z-index: 1;
 }
@@ -544,7 +544,7 @@ li a {
 }
 
 .contenedor-banner-video {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.44)), url(../Images/Nuestra-carta/banner-video.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.44)), url(../images/Nuestra-carta/banner-video.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -640,7 +640,7 @@ video[poster] {
 
 /* Estilos generales */
 .reservaciónes {
-  background-image: url(../Images/BG/BG-restaurant\.jpg);
+  background-image: url(../images/BG/BG-restaurant\.jpg);
   background-size: cover;
   background-position: center center;
   padding: 0px 0px 0px 0px;
@@ -651,7 +651,7 @@ video[poster] {
 
 .container-reserva {
   padding: 1.9rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -729,7 +729,7 @@ select {
 /** tarjetas producto-info **/
 .contenedor-card {
   padding: 1.9rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -746,7 +746,7 @@ select {
   max-width: 100%;
   margin: 0 auto;
   padding: 1.9rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   text-align: center;
@@ -942,7 +942,7 @@ button.prev:hover, button.next:hover {
 
 /** quienes somos contenedor **/
 .container-fluid-10 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-color: #1F242C;
   background-size: cover;
   background-position: center;
@@ -1043,7 +1043,7 @@ button.prev:hover, button.next:hover {
 }
 
 .contenedor-quienes-somos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-color: #1F242C;
   background-size: cover;
   background-position: center;
@@ -1098,7 +1098,7 @@ p {
 /** Fin blog-img **/
 /** nuestros locales **/
 .locales-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-color: #1F242C;
   background-size: cover;
   background-position: center;
@@ -1213,7 +1213,7 @@ p {
 /** fin mapa **/
 /** formulario de contacto **/
 .container-contactos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1263,7 +1263,7 @@ ul {
 /* CONTACT */
 /* ------- */
 .contact {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../Images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
