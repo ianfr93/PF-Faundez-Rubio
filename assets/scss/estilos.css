@@ -62,60 +62,60 @@ body {
 span {
   color: #fff;
   font-size: 18px;
-  font-family: "JosefinSans-medium";
+  font-family: "Gilroy-Medium";
 }
 
 h1 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-Bold";
   color: #fff;
   font-size: 50px;
 }
 
 h2 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-Semibold";
   font-size: 40px;
 }
 
 h3 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-Medium";
   font-size: 30px;
 }
 
 h4 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-Semibold";
   font-size: 20px;
 }
 
 h5 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-Regular";
   font-size: 18px;
 }
 
 h6 {
-  font-family: "Adineue-PRO";
+  font-family: "Gilroy-SemiBoldItalic";
   font-size: 13px;
 }
 
 p {
-  font-family: "CormorantInfant-semibold";
+  font-family: "Gilroy-Regular";
   color: #fff;
   font-size: 20px;
 }
 
 a {
-  font-family: "JosefinSans-regular";
+  font-family: "Gilroy-Medium";
 }
 
 .btn {
-  font-family: "JosefinSans-semibold";
+  font-family: "Gilroy-Semibold";
 }
 
 .button {
-  font-family: "JosefinSans-semibold";
+  font-family: "Gilroy-Semibold";
 }
 
 li a {
-  font-family: "JosefinSans-medium";
+  font-family: "Gilroy-medium";
   font-size: 18px;
 }
 
