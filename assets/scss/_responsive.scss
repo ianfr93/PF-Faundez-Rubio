@@ -207,7 +207,20 @@
     }
 }
 
-  
+.medios-de-pago {
+  text-align: center;
+  margin-top: 30px;
+
+  img {
+    width: 40%;
+    object-fit: cover;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+
+
+  }
+}
 
   .info-text .btn-container {
     margin-top: 30px;
@@ -382,8 +395,6 @@
     }
   }
 
-
-
   .container-fluid-01 video {
     width: 50%;
     margin-left: auto;
@@ -533,16 +544,16 @@
 
   .medios-de-pago {
     text-align: center;
-    margin-top: 50px;
-
+    margin-top: 40px;
+  
     img {
       width: 60%;
       object-fit: cover;
       max-height: 100%;
       margin: auto;
       display: block;
-
-
+  
+  
     }
   }
 
@@ -778,7 +789,7 @@
   }
 
   .texto-banner {
-    margin-left: 35px;
+    margin-left: 40px;
   }
 
 

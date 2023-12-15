@@ -1017,7 +1017,7 @@ button.prev:hover, button.next:hover {
 }
 
 .texto-banner {
-  width: 80%;
+  width: 95%;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -1486,6 +1486,18 @@ ul {
     text-align: left;
     margin-top: 20px;
   }
+  .medios-de-pago {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .medios-de-pago img {
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+  }
   .info-text .btn-container {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -1747,7 +1759,7 @@ ul {
   }
   .medios-de-pago {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .medios-de-pago img {
     width: 60%;
@@ -1940,7 +1952,7 @@ ul {
     width: 100%;
   }
   .texto-banner {
-    margin-left: 35px;
+    margin-left: 40px;
   }
   /** boton subir**/
   .subir {
