@@ -24,52 +24,40 @@ body {
 }
 
 @font-face {
-  font-family: "adineue-PRO-Bold";
-  src: url("../Fonts/adineue-PRO-Bold.ttf") format("truetype");
+  font-family: "Gilroy-light";
+  src: url("../Fonts/Gilroy-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "CormorantInfant-bold";
-  src: url("../Fonts/CormorantInfant-Bold.ttf");
+  font-family: "Gilroy-Regular";
+  src: url("../Fonts/Gilroy-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "CormorantInfant-light";
-  src: url("../Fonts/CormorantInfant-Light.ttf") format("truetype");
+  font-family: "Gilroy-Medium";
+  src: url("../Fonts/Gilroy-Medium.ttf");
 }
 @font-face {
-  font-family: "CormorantInfant-medium";
-  src: url("../Fonts/CormorantInfant-Medium.ttf") format("truetype");
+  font-family: "Gilroy-Semibold";
+  src: url("../Fonts/Gilroy-SemiBold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "CormorantInfant-regular";
-  src: url("../Fonts/CormorantInfant-Regular.ttf") format("truetype");
+  font-family: "Gilroy-Bold";
+  src: url("../Fonts/Gilroy-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "CormorantInfant-semibold";
-  src: url("../Fonts/CormorantInfant-SemiBold.ttf") format("truetype");
+  font-family: "Gilroy-Extrabold";
+  src: url("../Fonts/Gilroy-ExtraBold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "JosefinSans-bold";
-  src: url("../Fonts/JosefinSans-Bold.ttf") format("truetype");
+  font-family: "Gilroy-SemiBoldItalic";
+  src: url("../Fonts/Gilroy-SemiBoldItalic.ttf") format("truetype");
 }
 @font-face {
-  font-family: "JosefinSans-extralight";
-  src: url("../Fonts/JosefinSans-ExtraLight.ttf") format("truetype");
+  font-family: "Gilroy-Thin";
+  src: url("../Fonts/Gilroy-Thin.ttf") format("truetype");
 }
 @font-face {
-  font-family: "JosefinSans-light";
-  src: url("../Fonts/JosefinSans-Light.ttf") format("truetype");
-}
-@font-face {
-  font-family: "JosefinSans-medium";
-  src: url("../Fonts/JosefinSans-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "JosefinSans-regular";
-  src: url("../Fonts/JosefinSans-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "JosefinSans-semibold";
-  src: url("../Fonts/JosefinSans-SemiBold.ttf") format("truetype");
+  font-family: "Gilroy-RegularItalic";
+  src: url("../Fonts/Gilroy-RegularItalic.ttf") format("truetype");
 }
 span {
   color: #fff;
