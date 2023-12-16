@@ -9,6 +9,14 @@
   background-color: #af8546 !important;
   border-color: #ffffff;
   color: #ffffff;
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  text-decoration: solid;
+}
+.btn-primary:hover:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  filter: saturate(1);
 }
 
 * {
@@ -139,7 +147,7 @@ li a {
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
   font-size: 40px;
   margin-left: 70px;
-  text-align: left;
+  text-align: start;
   text-decoration: solid;
   color: #E1B168;
   transform: scale(1.1);

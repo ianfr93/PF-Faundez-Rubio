@@ -28,4 +28,22 @@ $size-parrafos: 16px;
   background-color: $color-Secundario !important;
   border-color: $color-cuarto;
   color: $color-cuarto;
+
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  text-decoration: solid;
+  
+  &:hover {
+   
+   
+    color: $color-cuarto;
+    transform: scale(1.1);
+    filter: saturate(1.0);
+
+  }
 }
+
+
+
+
+
