@@ -6,23 +6,26 @@
 
 
   h1 {
-    font-size: 40px;
+    font-size: $size-encabezados;
     margin: 20px;
     margin-top: 60px;
     margin-left: 50px;
-    padding: 10px; // Añadido padding para crear el rectángulo
+    padding: 10px;
     text-align: left;
     text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
-    transition: text-shadow 0.1s ease, font-size 0.1s ease, padding 0.1s ease; // Añadida transición para el padding
+    transition: transform 0.3s ease, filter 0.3s ease;
     text-decoration: solid;
+  
 
     &:hover {
       text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
-      font-size: 40px;
-      margin-right: 90px;
-      text-align: end;
+      font-size: $size-encabezados;
+      margin-right: 70px;
+      text-align: left;
       text-decoration: solid;
       color: $color-Bordes;
+      transform: scale(1.1);
+      filter: saturate(1.5);
 
     }
   }
@@ -35,18 +38,9 @@
     margin-top: 50px;
     width: auto;
     text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
-    transition: text-shadow 0.1s ease, font-size 0.1s ease, padding 0.1s ease; // Añadida transición para el padding
+    transition: text-shadow 0.1s ease, font-size 0.1s ease, padding 0.1s ease;
     text-decoration: solid;
 
-    &:hover {
-      text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
-
-      margin-right: 90px;
-      text-align: end;
-      text-decoration: solid;
-      color: $color-Bordes;
-
-    }
   }
 
   video {

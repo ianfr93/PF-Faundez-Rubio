@@ -132,16 +132,18 @@ li a {
   padding: 10px;
   text-align: left;
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
-  transition: text-shadow 0.1s ease, font-size 0.1s ease, padding 0.1s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
   text-decoration: solid;
 }
 .container-fluid-01 h1:hover {
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
   font-size: 40px;
-  margin-right: 90px;
-  text-align: end;
+  margin-right: 70px;
+  text-align: left;
   text-decoration: solid;
   color: #E1B168;
+  transform: scale(1.1);
+  filter: saturate(1.5);
 }
 .container-fluid-01 p {
   margin: 60px;
@@ -153,13 +155,6 @@ li a {
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
   transition: text-shadow 0.1s ease, font-size 0.1s ease, padding 0.1s ease;
   text-decoration: solid;
-}
-.container-fluid-01 p:hover {
-  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
-  margin-right: 90px;
-  text-align: end;
-  text-decoration: solid;
-  color: #E1B168;
 }
 .container-fluid-01 video {
   width: 40%;
