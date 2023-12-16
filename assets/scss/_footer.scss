@@ -1,76 +1,75 @@
 /* footer-------------------------------------------------------------------------------------------------- */
 
 /* Estilos generales del footer */
-
 footer {
-    background-color: $color-principal !important;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-  }
-  
-  .container-logo {
-    text-align: center;
-  }
-  
-  .logo-footer img {
-    max-width: 190px;
-    height: auto;
-    margin-top: 30px;
-  }
-  
-  footer {
-    .social-icons a {
-      color: $color-cuarto;
-      font-size: 18px;
-      margin: 0 10px;
-    }
-  
-    h4 {
-      margin-bottom: 10px;
-      text-align: center;
-      color: $color-cuarto;
-      font-size: 22px;
-    }
-  
-     p {
-      color: $color-Bordes;
-      text-align: center;
-      font-size: 13px;
-    }
-  }
-  
-  /* Estilos para el pie de página */
-  
-  .subscribete-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-  
-    input {
-      width: 90%;
-      box-sizing: border-box;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-  
-    button {
-      background-color: $button-principal;
-      color: $color-cuarto;
-      padding: 12px 25px;
-      border: none;
-      cursor: pointer;
-      margin-left: auto;
-      margin-top: -57px;
-    }
-  }
-  
-  .copyright span {
-    font-size: 13px;
-  }
+  background-color: $color-principal !important;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.container-logo {
+  text-align: center;
+}
+
+.logo-footer img {
+  max-width: 190px;
+  height: auto;
+  margin-top: 30px;
+}
+
+/* Estilos para el contenido dentro del footer */
+footer .social-icons a {
+  color: $color-cuarto;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: $color-cuarto;
+  font-size: 22px;
+}
+
+footer p {
+  color: $color-Bordes;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Estilos para el formulario de suscripción */
+.subscribete-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribete-form input {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.subscribete-form button {
+  background-color: $button-principal;
+  color: $color-cuarto;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: -57px;
+}
+
+/* Estilos para el copyright */
+.copyright span {
+  font-size: 13px;
+}
+
   
 
   .subir {

@@ -30,8 +30,8 @@ body {
   overflow-x: hidden;
   background-color: purple;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 video {
@@ -2017,24 +2017,27 @@ footer {
   margin-top: 30px;
 }
 
+/* Estilos para el contenido dentro del footer */
 footer .social-icons a {
   color: #ffffff;
   font-size: 18px;
   margin: 0 10px;
 }
+
 footer h4 {
   margin-bottom: 10px;
   text-align: center;
   color: #ffffff;
   font-size: 22px;
 }
+
 footer p {
   color: #E1B168;
   text-align: center;
   font-size: 13px;
 }
 
-/* Estilos para el pie de página */
+/* Estilos para el formulario de suscripción */
 .subscribete-form {
   display: flex;
   flex-direction: row;
@@ -2042,12 +2045,14 @@ footer p {
   justify-content: center;
   margin-top: 20px;
 }
+
 .subscribete-form input {
   width: 90%;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
 }
+
 .subscribete-form button {
   background-color: #E1B168;
   color: #ffffff;
@@ -2058,6 +2063,7 @@ footer p {
   margin-top: -57px;
 }
 
+/* Estilos para el copyright */
 .copyright span {
   font-size: 13px;
 }
