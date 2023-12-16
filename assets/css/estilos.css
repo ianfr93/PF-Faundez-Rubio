@@ -70,7 +70,7 @@ body {
 span {
   color: #fff;
   font-size: 18px;
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-Semibold";
 }
 
 h1 {
@@ -1170,7 +1170,7 @@ p {
 }
 
 /** fin nuestros locales **/
-/** mapa **/
+/** MAPA **/
 .texto-contenedor {
   padding: 10px;
   z-index: 2;
@@ -1207,8 +1207,8 @@ p {
   position: relative;
 }
 
-/** fin mapa **/
-/** formulario de contacto **/
+/** FIN MAPA**/
+/** FORMULARIO DE CONTACTO **/
 .container-contactos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   max-width: 100%;
@@ -1236,7 +1236,7 @@ ul {
 }
 
 /* ------------------- */
-/* COMPANY INFORMATION */
+/*INFORMACIÓN DE LA EMPRESA */
 /* ------------------- */
 .company-info {
   background-color: #B43123;
@@ -1257,7 +1257,7 @@ ul {
 }
 
 /* ------- */
-/* CONTACT */
+/* CONTACTO */
 /* ------- */
 .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
