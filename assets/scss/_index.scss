@@ -20,12 +20,12 @@
     &:hover {
       text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
       font-size: $size-encabezados;
-      margin-right: 70px;
+      margin-left: 70px;
       text-align: left;
       text-decoration: solid;
       color: $color-Bordes;
       transform: scale(1.1);
-      filter: saturate(1.5);
+      filter: saturate(1.3);
 
     }
   }
