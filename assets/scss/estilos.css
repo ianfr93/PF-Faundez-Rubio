@@ -34,6 +34,35 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  max-width: 100%;
+}
+
+.container-fluid-01,
+.container-fluid-02,
+.contenedor-info-02,
+.container-top-10,
+.container-banner-ubicacion,
+.container-medios-de-pagos,
+.contenedor-nuestros-clientes,
+.reservaciónes {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
 @font-face {
   font-family: "Gilroy-light";
   src: url("../Fonts/Gilroy-Light.ttf") format("truetype");
