@@ -4,6 +4,8 @@
     url(../images/BG/BG-fondo-principal.gif) center center / cover;
   background-color: var(--color-main);
 
+  max-width: 100%;
+
 
   h1 {
     font-size: $size-encabezados;
