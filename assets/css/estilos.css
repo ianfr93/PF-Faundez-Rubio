@@ -1422,6 +1422,9 @@ ul {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
   .container-arriba,
   .container-abajo {
     flex-direction: column;
@@ -1596,6 +1599,9 @@ ul {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
   .container-arriba,
   .container-abajo {
     flex-direction: column;
