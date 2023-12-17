@@ -8,8 +8,9 @@
     box-sizing: border-box;
     max-width: 100%;
     margin: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
+
   .container-fluid-01 video {
     width: 50%;
     margin-left: auto;
@@ -359,20 +360,24 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
 
   body {
     box-sizing: border-box;
     max-width: 100%;
     margin: 0;
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
+
   .container-arriba,
   .container-abajo {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 3;
-    width: 100%;
+    max-width: 100%;
   }
 
   .navbar-toggler {
@@ -413,7 +418,7 @@
     }
   }
 
-  .container-fluid-01{
+  .container-fluid-01 {
     max-width: 100%;
 
     video {
@@ -428,6 +433,7 @@
 
   .container-fluid-02 {
     max-width: 100%;
+
     .info-ico {
       display: list-item;
       flex-direction: column;
@@ -454,7 +460,7 @@
   }
 
   .contenedor-info-02 {
-    width: 100%;
+    max-width: 100%;
     flex-direction: column;
     align-items: center;
 
@@ -462,7 +468,7 @@
 
   .info-text {
     margin-bottom: 50px;
-    width: 100%;
+    max-width: 100%;
 
     h2 {
       margin-top: -80px;
@@ -494,33 +500,35 @@
 
 
   .container-top-10 {
-    width: 100%;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
 
-  /* Estilos para el carrusel */
 
-  .carousel-inner {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 40%;
-    margin: auto;
-    margin-top: 80px;
+    /* Estilos para el carrusel */
 
-    img {
-      width: 100% !important;
-      height: auto;
+    .carousel-inner {
+      display: flex;
+      flex-wrap: nowrap;
+      margin: auto;
+      margin-top: 80px;
+      max-width: 40%;
+
+      img {
+        width: 100% !important;
+        height: auto;
+      }
+    }
+
+    .carousel-control-prev {
+      margin-left: 20px;
+    }
+
+    .carousel-control-next {
+      margin-right: 20px;
     }
   }
 
-  .carousel-control-prev {
-    margin-left: 20px;
-  }
-
-  .carousel-control-next {
-    margin-right: 20px;
-  }
 
   .platos-10 {
     margin-left: auto;
@@ -548,20 +556,20 @@
       text-align: center;
       font-size: 16;
     }
-  }
 
-  .btn-container {
-    text-align: center;
+    .btn-container {
+      text-align: center;
+    }
   }
 
   .container-banner-ubicacion {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 
     img {
-      width: 100%;
+      max-width: 100%;
       height: 100%;
       object-fit: cover;
     }
@@ -570,6 +578,7 @@
   .medios-de-pago {
     text-align: center;
     margin-top: 40px;
+    max-width: 100%;
 
     img {
       width: 60%;
@@ -577,11 +586,8 @@
       max-height: 100%;
       margin: auto;
       display: block;
-
-
     }
   }
-
 
   form {
     width: 80%;
@@ -589,7 +595,7 @@
 
   .banner-video {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     overflow: hidden;
     display: flex;
