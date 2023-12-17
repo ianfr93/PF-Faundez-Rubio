@@ -1336,6 +1336,12 @@ ul {
 /** fin formulario de contacto **/
 /* media queries----------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 993px) and (max-width: 1049px) {
+  body {
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
   .container-fluid-01 video {
     width: 50%;
     margin-left: auto;
