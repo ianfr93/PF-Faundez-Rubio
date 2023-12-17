@@ -1667,6 +1667,9 @@ ul {
   .navbar-nav .nav-link:hover {
     color: #E1B168;
   }
+  .container-fluid-01 {
+    max-width: 100%;
+  }
   .container-fluid-01 video {
     width: 50%;
     margin-left: auto;
