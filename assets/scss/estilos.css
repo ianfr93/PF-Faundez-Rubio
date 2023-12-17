@@ -1676,6 +1676,9 @@ ul {
     margin-right: auto;
     margin-bottom: 40px;
   }
+  .container-fluid-02 {
+    max-width: 100%;
+  }
   .container-fluid-02 .info-ico {
     display: list-item;
     flex-direction: column;
