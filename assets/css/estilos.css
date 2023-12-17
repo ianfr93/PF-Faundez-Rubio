@@ -1798,7 +1798,10 @@ ul {
     margin: auto;
     display: block;
   }
-  form {
+  .reservaciones {
+    max-width: 100%;
+  }
+  .reservaciones form {
     width: 80%;
   }
   .banner-video {
