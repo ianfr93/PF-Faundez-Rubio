@@ -1610,7 +1610,7 @@ ul {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body {
     box-sizing: border-box;
-    max-width: 767px;
+    max-width: 100%;
     margin: 0 auto;
   }
   .container-arriba,

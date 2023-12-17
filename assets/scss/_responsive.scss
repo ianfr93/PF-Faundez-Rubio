@@ -134,6 +134,7 @@
   body {
     overflow-x: hidden;
   }
+
   .container-arriba,
   .container-abajo {
     flex-direction: column;
@@ -189,40 +190,40 @@
 
   .container-fluid-02 {
     .info-ico {
-        display: flex;
-        margin-bottom: 10px; 
+      display: flex;
+      margin-bottom: 10px;
     }
 
     img {
-        width: 40px;
-        margin-right: 10px; 
+      width: 40px;
+      margin-right: 10px;
     }
 
     .text-info {
-        flex-grow: 1; 
+      flex-grow: 1;
     }
 
     p {
-        font-size: 16px;
-        text-align: left; 
-        margin-top: 20px;
+      font-size: 16px;
+      text-align: left;
+      margin-top: 20px;
     }
-}
-
-.medios-de-pago {
-  text-align: center;
-  margin-top: 30px;
-
-  img {
-    width: 40%;
-    object-fit: cover;
-    max-height: 100%;
-    margin: auto;
-    display: block;
-
-
   }
-}
+
+  .medios-de-pago {
+    text-align: center;
+    margin-top: 30px;
+
+    img {
+      width: 40%;
+      object-fit: cover;
+      max-height: 100%;
+      margin: auto;
+      display: block;
+
+
+    }
+  }
 
   .info-text .btn-container {
     margin-top: 30px;
@@ -352,7 +353,7 @@
 
   body {
     box-sizing: border-box;
-    max-width: 767px;
+    max-width:100%;
     margin: 0 auto;
   }
 
@@ -553,15 +554,15 @@
   .medios-de-pago {
     text-align: center;
     margin-top: 40px;
-  
+
     img {
       width: 60%;
       object-fit: cover;
       max-height: 100%;
       margin: auto;
       display: block;
-  
-  
+
+
     }
   }
 
