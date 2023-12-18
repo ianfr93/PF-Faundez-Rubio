@@ -435,7 +435,7 @@ li a {
 }
 
 .dropdown-menu {
-  background: linear-gradient(to right, #000000, #B43123);
+  background: linear-gradient(to right, #000000 30%, #B43123);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   transition: background 0.3s ease;
   width: 100%;
@@ -485,12 +485,12 @@ li a {
 
 /* Estilos para el Header */
 .navbar {
-  background: linear-gradient(to right, #000000, #B43123);
+  background: linear-gradient(to right, #000000 30%, #B43123);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
   transition: background 0.3s ease;
 }
 .navbar:hover {
-  background: linear-gradient(to right, #000000, #B43123);
+  background: linear-gradient(to right, #000000 30%, #B43123);
 }
 
 .navbar-toggler-icon {
@@ -1468,12 +1468,12 @@ ul {
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #000000, #B43123);
+    background: linear-gradient(to right, #000000 30%, #B43123);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
     transition: background 0.3s ease;
   }
   .navbar-collapse:hover {
-    background: linear-gradient(to right, #000000, #B43123);
+    background: linear-gradient(to right, #000000 30%, #B43123);
   }
   .navbar-nav {
     margin-bottom: 20px;
@@ -1644,12 +1644,12 @@ ul {
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #000000, #B43123);
+    background: linear-gradient(to right, #000000 30%, #B43123);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
     transition: background 0.3s ease;
   }
   .navbar-collapse:hover {
-    background: linear-gradient(to right, #000000, #B43123);
+    background: linear-gradient(to right, #000000 30%, #B43123);
   }
   .navbar-nav {
     margin-bottom: 20px;
@@ -2025,11 +2025,16 @@ ul {
 /* footer-------------------------------------------------------------------------------------------------- */
 /* Estilos generales del footer */
 footer {
-  background-color: #1F242C !important;
   text-align: center;
   width: 100%;
   height: auto;
   margin-top: 0px;
+  background: linear-gradient(to right, #000000 5%, #B43123);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.101);
+  transition: background 0.9s ease;
+}
+footer:hover {
+  background: linear-gradient(to right, #B43123 5%, #000000);
 }
 
 .container-logo {
@@ -2057,7 +2062,7 @@ footer h4 {
 }
 
 footer p {
-  color: #E1B168;
+  color: #ffffff;
   text-align: center;
   font-size: 13px;
 }

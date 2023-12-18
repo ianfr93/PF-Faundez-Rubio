@@ -2,11 +2,19 @@
 
 /* Estilos generales del footer */
 footer {
-  background-color: $color-principal !important;
+
   text-align: center;
   width: 100%;
   height: auto;
   margin-top: 0px;
+
+  background: linear-gradient(to right, $color-puro 5%, $color-logo); 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.101);
+  transition: background 0.9s ease; 
+
+  &:hover {
+    background: linear-gradient(to right, $color-logo 5%, $color-puro); 
+  }
 }
 
 .container-logo {
@@ -34,7 +42,7 @@ footer h4 {
 }
 
 footer p {
-  color: $color-Bordes;
+  color: $color-cuarto;
   text-align: center;
   font-size: 13px;
 }
