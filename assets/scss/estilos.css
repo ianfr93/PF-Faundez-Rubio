@@ -489,12 +489,12 @@ li a {
 
 /* Estilos para el Header */
 .navbar {
-  background: linear-gradient(to right, #000000 30%, #B43123);
+  background: linear-gradient(to right, #000000 10%, #B43123);
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
   transition: background 0.3s ease;
 }
 .navbar:hover {
-  background: linear-gradient(to right, #000000 30%, #B43123);
+  background: linear-gradient(to right, #000000 10%, #B43123);
 }
 
 .navbar-toggler-icon {
@@ -1474,12 +1474,12 @@ ul {
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #000000 30%, #B43123);
+    background: linear-gradient(to right, #000000 10%, #B43123);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
     transition: background 0.3s ease;
   }
   .navbar-collapse:hover {
-    background: linear-gradient(to right, #000000 30%, #B43123);
+    background: linear-gradient(to right, #000000 10%, #B43123);
   }
   .navbar-nav {
     margin-bottom: 20px;
@@ -1651,12 +1651,12 @@ ul {
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #000000 30%, #B43123);
+    background: linear-gradient(to right, #000000 10%, #B43123);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
     transition: background 0.3s ease;
   }
   .navbar-collapse:hover {
-    background: linear-gradient(to right, #000000 30%, #B43123);
+    background: linear-gradient(to right, #000000 10%, #B43123);
   }
   .navbar-nav {
     margin-bottom: 20px;

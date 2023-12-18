@@ -102,12 +102,12 @@
 /* Estilos para el Header */
 
 .navbar {
-  background: linear-gradient(to right, $color-puro 30%, $color-logo); 
+  background: linear-gradient(to right, $color-puro 10%, $color-logo); 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
   transition: background 0.3s ease; 
 
   &:hover {
-    background: linear-gradient(to right, $color-puro 30%, $color-logo); 
+    background: linear-gradient(to right, $color-puro 10%, $color-logo); 
   }
 }
 

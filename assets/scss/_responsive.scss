@@ -174,14 +174,14 @@
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, $color-puro 30%, $color-logo); 
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
-  transition: background 0.3s ease; 
+    background: linear-gradient(to right, $color-puro 10%, $color-logo);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
+    transition: background 0.3s ease;
 
-  &:hover {
-    background: linear-gradient(to right, $color-puro 30%, $color-logo); 
+    &:hover {
+      background: linear-gradient(to right, $color-puro 10%, $color-logo);
+    }
   }
-}
 
   .navbar-nav {
     margin-bottom: 20px;
@@ -245,9 +245,7 @@
       max-height: 100%;
       margin: auto;
       display: block;
-
-
-    }
+   }
   }
 
   .info-text .btn-container {
@@ -363,7 +361,7 @@
 
   body {
     overflow-x: hidden;
-}
+  }
 
 
 
@@ -398,15 +396,13 @@
     top: 56px;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, $color-puro 30%, $color-logo); 
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
-  transition: background 0.3s ease; 
+    background: linear-gradient(to right, $color-puro 10%, $color-logo);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
+    transition: background 0.3s ease;
 
-  &:hover {
-    background: linear-gradient(to right, $color-puro 30%, $color-logo); 
-  }
-
-
+    &:hover {
+      background: linear-gradient(to right, $color-puro 10%, $color-logo);
+    }
   }
 
   .navbar-nav {
@@ -431,25 +427,25 @@
       color: $color-Bordes;
     }
   }
-  
-  
-  
-   
+
+
+
+
   .container-01 {
     max-width: 100%;
 
 
     h1 {
       font-size: 18px;
-    
-  
-  
+
+
+
       &:hover {
-      font-size: 18px;
-       }
+        font-size: 18px;
+      }
     }
 
-    p{
+    p {
       font-size: 13px;
     }
 
@@ -661,7 +657,7 @@
       margin-top: 5px;
 
     }
-}
+  }
 
   .menu-categorias {
 
