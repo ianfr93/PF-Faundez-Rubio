@@ -145,6 +145,12 @@
     overflow-x: hidden;
   }
 
+
+  .botones-1 {
+    transform: none;
+    margin-left: auto;
+  }
+
   .container-arriba,
   .container-abajo {
     flex-direction: column;
@@ -356,6 +362,10 @@
     overflow-x: hidden;
   }
 
+  .botones-1 {
+    transform: none;
+    margin-left: auto;
+  }
   .container-arriba,
   .container-abajo {
     flex-direction: column;
@@ -609,9 +619,9 @@
     p {
       font-size: 10px;
       margin-top: 5px;
-    
-  }
-  
+
+    }
+
   }
 
   .menu-categorias {
@@ -782,10 +792,10 @@
       margin: 0 auto;
       text-align: left;
 
-      span{
+      span {
         font-size: 13px;
       }
-    
+
 
       label {
         display: block;

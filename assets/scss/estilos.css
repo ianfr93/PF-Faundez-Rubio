@@ -1454,6 +1454,10 @@ ul {
   body {
     overflow-x: hidden;
   }
+  .botones-1 {
+    transform: none;
+    margin-left: auto;
+  }
   .container-arriba,
   .container-abajo {
     flex-direction: column;
@@ -1622,6 +1626,10 @@ ul {
     max-width: 100%;
     margin: 0;
     overflow-x: hidden;
+  }
+  .botones-1 {
+    transform: none;
+    margin-left: auto;
   }
   .container-arriba,
   .container-abajo {
