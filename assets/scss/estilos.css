@@ -182,13 +182,13 @@ li a {
   margin-left: 35%;
 }
 
-.container-02 {
+.container-fluid-02 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
 }
-.container-02 .info-ico {
+.container-fluid-02 .info-ico {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,18 +196,18 @@ li a {
   margin-bottom: 50px;
   margin-top: 50px;
 }
-.container-02 .info-ico img {
+.container-fluid-02 .info-ico img {
   width: 50px;
   margin-right: 20px;
   /* Ajustar el margen derecho para el espacio */
 }
-.container-02 .info-ico p {
+.container-fluid-02 .info-ico p {
   margin-top: -40px;
   margin-left: 90px;
   /* Ajustar el margen izquierdo del texto */
 }
 
-.contenedor-info-03 {
+.contenedor-info-02 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center center;
@@ -1342,7 +1342,7 @@ ul {
     margin: 0;
     overflow-x: hidden;
   }
-  .container-fluid-01 video {
+  .container-01 video {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -1490,7 +1490,7 @@ ul {
   .navbar-nav .nav-link:hover {
     color: #E1B168;
   }
-  .container-fluid-01 video {
+  .container-01 video {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -1662,10 +1662,10 @@ ul {
   .navbar-nav .nav-link:hover {
     color: #E1B168;
   }
-  .container-fluid-01 {
+  .container-01 {
     max-width: 100%;
   }
-  .container-fluid-01 video {
+  .container-01 video {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
