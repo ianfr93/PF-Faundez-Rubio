@@ -1658,6 +1658,15 @@ ul {
   .container-01 {
     max-width: 100%;
   }
+  .container-01 h1 {
+    font-size: 18px;
+  }
+  .container-01 h1:hover {
+    font-size: 18px;
+  }
+  .container-01 p {
+    font-size: 13px;
+  }
   .container-01 video {
     width: 50%;
     margin-left: auto;
@@ -1996,13 +2005,6 @@ ul {
   .texto-banner {
     text-align: center;
     margin: 0 auto;
-  }
-  /** boton subir**/
-  .subir {
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
   }
 }
 /* footer-------------------------------------------------------------------------------------------------- */

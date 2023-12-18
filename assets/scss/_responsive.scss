@@ -417,9 +417,30 @@
       color: $color-Bordes;
     }
   }
-
+  
+  
+  
+   
   .container-01 {
     max-width: 100%;
+
+
+    h1 {
+      font-size: 18px;
+    
+  
+  
+      &:hover {
+      font-size: 18px;
+       }
+    }
+
+    p{
+      font-size: 13px;
+    }
+
+
+
 
     video {
       width: 50%;
@@ -855,12 +876,6 @@
     margin: 0 auto;
   }
 
-  /** boton subir**/
-  .subir {
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
+
 
 }
