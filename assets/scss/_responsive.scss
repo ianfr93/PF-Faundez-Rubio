@@ -753,20 +753,14 @@
     border-bottom-right-radius: 4px;
     margin: 0;
     margin-left: -40px;
-  
-
-
-
 
     h3 {
       font-size: 20px;
       font-weight: 300;
       text-align: center;
       margin: 0;
-    transform: translateX(35px);
+      transform: translateX(35px);
     }
-
-
 
     form {
       display: grid;
@@ -825,18 +819,12 @@
     margin: 0 auto;
   }
 
-
-
-
   /** boton subir**/
-
   .subir {
     font-size: 20px;
     width: 30px;
     height: 30px;
     line-height: 30px;
-
-
   }
 
 }
