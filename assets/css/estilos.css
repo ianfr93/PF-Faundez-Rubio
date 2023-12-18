@@ -23,7 +23,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: solid 1px red;
 }
 
 body {
@@ -1438,9 +1437,6 @@ ul {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  body {
-    overflow-x: hidden;
-  }
   .navbar-brand img {
     position: relative;
     z-index: 10;
@@ -1608,13 +1604,7 @@ ul {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  * {
-    box-sizing: border-box;
-  }
   body {
-    box-sizing: border-box;
-    max-width: 100%;
-    margin: 0;
     overflow-x: hidden;
   }
   .botones-1 {
