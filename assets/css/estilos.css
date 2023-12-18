@@ -264,6 +264,7 @@ li a {
   background-size: cover;
   background-position: center;
   text-align: center;
+  max-width: 100%;
 }
 
 .info-textos {
@@ -423,6 +424,7 @@ li a {
 .botones-1 {
   margin-left: 0px;
   transform: translateX(83%);
+  max-width: 100%;
 }
 
 /* Estilos del botón de navegación en pantallas pequeñas */
