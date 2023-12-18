@@ -23,7 +23,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: solid 1px red;
+  border: 1px red;
 }
 
 body {
@@ -32,6 +32,10 @@ body {
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 100%;
 }
 
 video {
@@ -1338,11 +1342,6 @@ ul {
     margin: 0;
     overflow-x: hidden;
   }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-    max-width: 100%;
-  }
   .container-fluid-01 video {
     width: 50%;
     margin-left: auto;
@@ -1627,11 +1626,6 @@ ul {
     max-width: 100%;
     margin: 0;
     overflow-x: hidden;
-  }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-    max-width: 100%;
   }
   .botones-1 {
     transform: none;
