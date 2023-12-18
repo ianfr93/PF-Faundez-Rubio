@@ -23,6 +23,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: solid 1px red;
 }
 
 body {
@@ -31,6 +32,11 @@ body {
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 video {
