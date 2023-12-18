@@ -28,7 +28,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: #292E36;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
