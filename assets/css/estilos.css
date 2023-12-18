@@ -23,7 +23,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px red;
+  border: solid 1px red;
 }
 
 body {
@@ -34,7 +34,9 @@ body {
   box-sizing: border-box;
 }
 
-.container-fluid {
+.row {
+  margin-right: 0;
+  margin-left: 0;
   max-width: 100%;
 }
 
@@ -1445,11 +1447,6 @@ ul {
 @media screen and (min-width: 768px) and (max-width: 992px) {
   body {
     overflow-x: hidden;
-  }
-  .row {
-    margin-right: 0;
-    margin-left: 0;
-    max-width: 100%;
   }
   .navbar-brand img {
     position: relative;
