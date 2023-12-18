@@ -1454,6 +1454,10 @@ ul {
   body {
     overflow-x: hidden;
   }
+  .navbar-brand img {
+    position: relative;
+    z-index: 10;
+  }
   .botones-1 {
     transform: none;
     margin-left: auto;
@@ -1630,6 +1634,10 @@ ul {
   .botones-1 {
     transform: none;
     margin-left: auto;
+  }
+  .navbar-brand img {
+    position: relative;
+    z-index: 10;
   }
   .container-arriba,
   .container-abajo {
