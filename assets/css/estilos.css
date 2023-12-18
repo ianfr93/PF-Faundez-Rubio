@@ -1811,12 +1811,13 @@ ul {
     width: 50%;
   }
   .overlay-container h1 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
+    margin-top: 10px;
   }
   .overlay-container p {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 10px;
+    margin-top: 5px;
   }
   .menu-categorias {
     flex-wrap: wrap;
