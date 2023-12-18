@@ -144,8 +144,11 @@
   body {
     overflow-x: hidden;
   }
-  
 
+  .row {
+    margin: 0;
+    padding: 0;
+  }
   .navbar-brand img {
     position: relative;
     z-index: 10;
@@ -368,7 +371,7 @@
     margin: 0;
     overflow-x: hidden;
   }
-  
+
 
 
   .botones-1 {
@@ -640,11 +643,13 @@
   }
 
   .menu-categorias {
+
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
 
     li {
-      margin: 13px;
+      margin: 5px;
     }
   }
 

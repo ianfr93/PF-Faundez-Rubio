@@ -28,7 +28,6 @@
 
 body {
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
@@ -1442,6 +1441,10 @@ ul {
   body {
     overflow-x: hidden;
   }
+  .row {
+    margin: 0;
+    padding: 0;
+  }
   .navbar-brand img {
     position: relative;
     z-index: 10;
@@ -1834,9 +1837,10 @@ ul {
   .menu-categorias {
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
   }
   .menu-categorias li {
-    margin: 13px;
+    margin: 5px;
   }
   .product-card {
     width: calc(100% - 20px);
