@@ -40,7 +40,7 @@ body {
   margin-left: 0;
 }
 
-video {
+.aricle video {
   max-width: 100%;
   height: auto;
 }
@@ -1984,7 +1984,8 @@ ul {
     width: 100%;
   }
   .texto-banner {
-    margin-left: 40px;
+    text-align: center;
+    margin: 0 auto;
   }
   /** boton subir**/
   .subir {
