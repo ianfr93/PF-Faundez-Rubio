@@ -1934,6 +1934,9 @@ ul {
   .contact h3 {
     font-size: 20px;
     font-weight: 300;
+    text-align: center;
+    margin: 0;
+    transform: translateX(35px);
   }
   .contact form {
     display: grid;
