@@ -1,4 +1,18 @@
 @charset "UTF-8";
+/** Variables colores definidos */
+/** Font sizes */
+/** 12px */
+/** 14px */
+/** 16px */
+/** 18px */
+/** 20px */
+/** 24px */
+/** 30px */
+/** 36px */
+/** 48px */
+/** 60px */
+/** Font WEIGHTS  */
+/**  Estilos utilizando las variables */
 .btn-primary {
   background-color: #E1B168 !important;
   border-color: #ffffff;
@@ -38,6 +52,8 @@ video {
   height: auto;
 }
 
+/** btn colores y variaciones */
+/** breakpoint mediaquery */
 @font-face {
   font-family: "Gilroy-light";
   src: url("../Fonts/Gilroy-Light.ttf") format("truetype");

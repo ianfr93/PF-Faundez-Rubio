@@ -1,0 +1,61 @@
+/** btn colores y variaciones */
+
+@mixin btncolorvariation($name, $color, $color-hover, $color-contrast) {
+    &.btn-#{$name} {
+        --#{$prefix}-btn-bg: #{$color};
+        --#{$prefix}-btn-color: #{$color-contrast};
+        --#{$prefix}-btn-hover-bg: #{$color-hover};
+        --#{$prefix}-btn-hover-color: #{$color-contrast};
+
+
+        &.btn-outline {
+            --#{$prefix}-btn-bg: transparent;
+            --#{$prefix}-btn-color: #{$color};
+            --#{$prefix}-btn-hover-bg: #{$color-contrast};
+            --#{$prefix}-btn-hover-color: #{$color};
+        }
+
+        &.btn-plain {
+            --#{$prefix}-btn-bg: transparent;
+            --#{$prefix}-btn-color: #{$color};
+            --#{$prefix}-btn-hover-bg: #{$color};
+        }
+    }
+}
+
+/** breakpoint mediaquery */
+@mixin break-up ($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media (min-width: map-get($breakpoints, $breakpoints)) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "`#{$breakpoints}` no es un breakpoint válido. Puedes intentar con: #{map-keys($breakpoints)}.";
+    }
+}
+
+@mixin sm() {
+    @include break-up(sm) {
+        @content;
+    }
+}
+
+@mixin md() {
+    @include break-up(md) {
+        @content;
+    }
+}
+
+@mixin lg() {
+    @include break-up(lg) {
+        @content;
+    }
+}
+
+@mixin xl() {
+    @include break-up(xl) {
+        @content;
+    }
+}
