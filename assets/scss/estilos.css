@@ -1823,6 +1823,24 @@ ul {
     margin: auto;
     display: block;
   }
+  .tarejeta-1 h2,
+  .tarjeta-2 h2,
+  .tarjeta-3 h2,
+  .tarjeta-4 h2 {
+    font-size: 20px;
+  }
+  .tarejeta-1 span,
+  .tarjeta-2 span,
+  .tarjeta-3 span,
+  .tarjeta-4 span {
+    font-size: 18px;
+  }
+  .tarejeta-1 p,
+  .tarjeta-2 p,
+  .tarjeta-3 p,
+  .tarjeta-4 p {
+    font-size: 16px;
+  }
   .reservaciones {
     max-width: 100%;
   }
