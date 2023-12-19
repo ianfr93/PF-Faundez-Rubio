@@ -184,7 +184,7 @@ li a {
   margin: 60px;
   text-align: left;
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-top: 50px;
   width: auto;
   text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
@@ -218,6 +218,7 @@ li a {
   /* Ajustar el margen derecho para el espacio */
 }
 .container-fluid-02 .info-ico p {
+  font-size: 1.125rem;
   margin-top: -40px;
   margin-left: 90px;
   /* Ajustar el margen izquierdo del texto */
@@ -248,7 +249,7 @@ li a {
 }
 .info-text p {
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-top: 10px;
 }
 .info-text .info-text .btn-container {
@@ -289,6 +290,7 @@ li a {
 .info-textos p {
   color: #1F242C;
   text-align: center;
+  font-size: 1.125rem;
 }
 
 .platos-10 {
@@ -318,6 +320,7 @@ li a {
   color: #1F242C;
 }
 .info-top p {
+  font-size: 1.125rem;
   margin-bottom: 20px;
   color: #1F242C;
   width: 100%;

@@ -36,7 +36,7 @@
     margin: 60px;
     text-align: left;
     line-height: 1.6;
-    font-size: 18px;
+    font-size: $font-lg;
     margin-top: 50px;
     width: auto;
     text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.664);
@@ -73,6 +73,7 @@
     }
 
     p {
+      font-size: $font-lg;
       margin-top: -40px;
       margin-left: 90px;
       /* Ajustar el margen izquierdo del texto */
@@ -105,7 +106,7 @@
 
   p {
     line-height: 1.6;
-    font-size: 18px;
+    font-size: $font-lg;
     margin-top: 10px;
   }
 
@@ -152,6 +153,7 @@
   p {
     color: $color-principal;
     text-align: center;
+    font-size: $font-lg;
   }
 }
 
@@ -186,6 +188,7 @@
   }
 
   p {
+    font-size: $font-lg;
     margin-bottom: 20px;
     color: $color-principal;
     width: 100%;
