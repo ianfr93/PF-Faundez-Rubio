@@ -1820,6 +1820,12 @@ ul {
     margin: auto;
     display: block;
   }
+  .clientes-info h2 {
+    font-size: 18px;
+  }
+  .clientes-info p {
+    font-size: 13px;
+  }
   .tarjeta-1,
   .tarjeta-2,
   .tarjeta-3,
