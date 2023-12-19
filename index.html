@@ -587,34 +587,6 @@
         AOS.init();
     </script>
 
-   <!--! funcion boton subir usar solo al final. -->
-   <script>
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        var btnSubir = document.querySelector('.subir');
-
-        window.onscroll = function () {
-            showScrollButton();
-        };
-
-        function showScrollButton() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                btnSubir.style.display = 'block';
-            } else {
-                btnSubir.style.display = 'none';
-            }
-        }
-
-        btnSubir.addEventListener('click', function () {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
-   <!--! fin funcion boton subir usar solo al final. -->
-
 </body>
 
 </html>
