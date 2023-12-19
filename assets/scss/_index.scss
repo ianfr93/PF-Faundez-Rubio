@@ -247,6 +247,14 @@
   display: inline-block;
   text-align: center;
   margin-top: 30px;
+
+  @include sm{
+    width: calc(50% - 8px);
+  }
+
+  @include xl{
+    width: calc(25% - 12px);
+  }
 }
 
 .tarjeta-1 img,

@@ -376,6 +376,22 @@ li a {
   text-align: center;
   margin-top: 30px;
 }
+@media (min-width: ) {
+  .tarjeta-1,
+  .tarjeta-2,
+  .tarjeta-3,
+  .tarjeta-4 {
+    width: calc(50% - 8px);
+  }
+}
+@media (min-width: ) {
+  .tarjeta-1,
+  .tarjeta-2,
+  .tarjeta-3,
+  .tarjeta-4 {
+    width: calc(25% - 12px);
+  }
+}
 
 .tarjeta-1 img,
 .tarjeta-2 img,
