@@ -357,6 +357,9 @@
   }
 }
 
+
+
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   body {
@@ -428,17 +431,12 @@
     }
   }
 
-
-
-
   .container-01 {
     max-width: 100%;
 
 
     h1 {
       font-size: 18px;
-
-
 
       &:hover {
         font-size: 18px;
@@ -450,8 +448,6 @@
     }
 
 
-
-
     video {
       width: 50%;
       margin-left: auto;
@@ -459,8 +455,6 @@
       margin-bottom: 40px;
     }
   }
-
-
 
   .container-fluid-02 {
     max-width: 100%;
@@ -498,39 +492,40 @@
   }
 
   .info-text {
-    margin: 0 auto 50px; 
+    margin: 0 auto 50px;
     max-width: 100%;
-    text-align: center; 
+    text-align: center;
     margin-top: 50px;
-  
+
     h2 {
       margin-top: -80px;
       width: 100%;
       font-size: 18px;
     }
-  
+
     p {
       width: 100%;
       font-size: 13px;
     }
-  
+
     .btn-container {
       margin-top: 30px;
       width: 100%;
     }
   }
-  
 
-  .info-local  {
+
+  .info-local {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     height: auto;
+
     img {
       width: 220px;
       margin: 0 auto;
-      display: block; 
+      display: block;
       margin-top: 20px;
     }
   }
@@ -658,7 +653,6 @@
     }
   }
 
-
   .banner-video {
     position: relative;
     max-width: 100%;
@@ -679,7 +673,6 @@
       font-size: 16px;
       margin: 0;
       margin-top: 10px;
-
     }
 
     p {
@@ -889,7 +882,6 @@
     }
   }
 
-
   .gallery {
     flex-direction: column;
 
@@ -914,5 +906,18 @@
   .texto-banner {
     text-align: center;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .info-text {
+    transform: translateX(150px);
+  }
+
+  .platos-10 {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(50px);
   }
 }
