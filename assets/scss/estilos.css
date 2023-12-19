@@ -1743,12 +1743,15 @@ ul {
     width: 100%;
     text-align: center;
   }
-  .info-local img {
+  .info-local {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     height: auto;
+  }
+  .info-local img {
+    width: 220px;
   }
   .container-top-10 {
     max-width: 100%;

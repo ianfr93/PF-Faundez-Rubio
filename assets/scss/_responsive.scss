@@ -521,12 +521,16 @@
   }
 
 
-  .info-local img {
+  .info-local  {
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     height: auto;
+    img{
+      width: 220px;
+    }
+
   }
 
 
