@@ -30,7 +30,7 @@
     }
 
     p {
-      font-size: 16px;
+      font-size: $font-md;
       margin-left: 40px;
       width: 65%;
       text-align: center;
@@ -50,8 +50,6 @@
 
     }
   }
-
-
 
   /* Estilos para el carrusel */
 
@@ -87,7 +85,7 @@
     }
 
     p {
-      font-size: 18px;
+      font-size: $font-md;
       margin-top: 10px;
     }
   }
@@ -133,7 +131,7 @@
     }
 
     p {
-      font-size: 14px;
+      font-size: $font-md;
       margin-bottom: 10px;
     }
   }

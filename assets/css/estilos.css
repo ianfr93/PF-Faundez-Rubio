@@ -1392,7 +1392,7 @@ ul {
     margin: 0 30px;
   }
   .container-fluid-02 p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: 40px;
     width: 65%;
     text-align: center;
@@ -1436,7 +1436,7 @@ ul {
     margin: 0;
   }
   .overlay-container p {
-    font-size: 18px;
+    font-size: 1rem;
     margin-top: 10px;
   }
   .menu-categorias {
@@ -1471,7 +1471,7 @@ ul {
     margin-bottom: 10px;
   }
   .product-details p {
-    font-size: 14px;
+    font-size: 1rem;
     margin-bottom: 10px;
   }
   .product-price,
