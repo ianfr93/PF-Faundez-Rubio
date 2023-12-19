@@ -80,25 +80,25 @@ footer p {
 
   
 
-  .subir {
-    height: 40px;
-    width: 40px;
-    background-color: $button-principal;
-    color: $button-principal;
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    text-align: center;
-    font-size: 28px;
-    line-height: 40px;
-    border-radius: 1%;
-    box-shadow: 2px 2px 5px #000;
-    z-index: 3;
-  
-    svg {
-      margin-top: 0px;
-      margin-left: 5px;
-      font-size: 20px;
-      transform: translateX(-15%);
-    }
-  }
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: $button-principal;
+  color: $button-principal;
+  position: fixed;
+  right: 2%;
+  bottom: 2%; 
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  border-radius: 10%; 
+  box-shadow: 2px 2px 5px #000;
+  z-index: 3;
+}
+
+.subir svg {
+  margin-top: 8px; /* Ajusté el margen superior */
+  margin-left: 0px; /* Cambié el valor para centrar horizontalmente */
+  font-size: 20px;
+  transform: translateX(-5%);
+}

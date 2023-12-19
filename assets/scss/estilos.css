@@ -1452,6 +1452,10 @@ ul {
   .product-price small {
     margin-right: 3px;
   }
+  .subir {
+    right: 5%;
+    bottom: 5%;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .navbar-brand img {
@@ -1620,10 +1624,8 @@ ul {
     margin-right: 3px;
   }
   .subir {
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
+    right: 5%;
+    bottom: 5%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -2073,6 +2075,10 @@ ul {
     text-align: center;
     margin: 0 auto;
   }
+  .subir {
+    right: 5%;
+    bottom: 5%;
+  }
 }
 @media screen and (min-width: 576px) {
   .info-text {
@@ -2167,18 +2173,19 @@ footer p {
   background-color: #E1B168;
   color: #E1B168;
   position: fixed;
-  right: 40px;
-  bottom: 40px;
+  right: 2%;
+  bottom: 2%;
   text-align: center;
   font-size: 28px;
   line-height: 40px;
-  border-radius: 1%;
+  border-radius: 10%;
   box-shadow: 2px 2px 5px #000;
   z-index: 3;
 }
+
 .subir svg {
-  margin-top: 0px;
-  margin-left: 5px;
+  margin-top: 8px; /* Ajusté el margen superior */
+  margin-left: 0px; /* Cambié el valor para centrar horizontalmente */
   font-size: 20px;
-  transform: translateX(-15%);
+  transform: translateX(-5%);
 }/*# sourceMappingURL=estilos.css.map */
