@@ -1718,24 +1718,23 @@ ul {
     align-items: center;
   }
   .info-text {
-    margin-bottom: 50px;
+    margin: 0 auto 50px;
     max-width: 100%;
+    text-align: center;
+    margin-top: 50px;
   }
   .info-text h2 {
     margin-top: -80px;
-    text-align: center;
     width: 100%;
     font-size: 18px;
   }
   .info-text p {
     width: 100%;
-    text-align: center;
     font-size: 13px;
   }
   .info-text .btn-container {
     margin-top: 30px;
     width: 100%;
-    text-align: center;
   }
   .info-local {
     margin-bottom: 50px;
