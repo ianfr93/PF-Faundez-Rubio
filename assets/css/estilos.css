@@ -1745,6 +1745,7 @@ ul {
   }
   .info-local img {
     width: 220px;
+    margin: 0 auto;
   }
   .container-top-10 {
     max-width: 100%;
