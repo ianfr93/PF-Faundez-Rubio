@@ -1814,23 +1814,30 @@ ul {
     margin: auto;
     display: block;
   }
-  .tarejeta-1 h2,
-  .tarjeta-2 h2,
-  .tarjeta-3 h2,
-  .tarjeta-4 h2 {
-    font-size: 20px;
+  .tarjeta-1,
+  .tarjeta-2,
+  .tarjeta-3,
+  .tarjeta-4 {
+    width: 230px;
+    margin: 0 10px;
   }
-  .tarejeta-1 span,
-  .tarjeta-2 span,
-  .tarjeta-3 span,
-  .tarjeta-4 span {
+  .tarjeta-1 .contenido h2,
+  .tarjeta-2 .contenido h2,
+  .tarjeta-3 .contenido h2,
+  .tarjeta-4 .contenido h2 {
     font-size: 18px;
   }
-  .tarejeta-1 p,
-  .tarjeta-2 p,
-  .tarjeta-3 p,
-  .tarjeta-4 p {
+  .tarjeta-1 .contenido span,
+  .tarjeta-2 .contenido span,
+  .tarjeta-3 .contenido span,
+  .tarjeta-4 .contenido span {
     font-size: 16px;
+  }
+  .tarjeta-1 .contenido p,
+  .tarjeta-2 .contenido p,
+  .tarjeta-3 .contenido p,
+  .tarjeta-4 .contenido p {
+    font-size: 13px;
   }
   .reservaciones {
     max-width: 100%;

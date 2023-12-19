@@ -245,7 +245,7 @@
       max-height: 100%;
       margin: auto;
       display: block;
-   }
+    }
   }
 
   .info-text .btn-container {
@@ -620,21 +620,28 @@
     }
   }
 
-  .tarejeta-1,
+  .tarjeta-1,
   .tarjeta-2,
   .tarjeta-3,
-  .tarjeta-4{
-h2{
-  font-size: 20px;
-}
+  .tarjeta-4 {
+    width: 230px;
+    margin: 0 10px;
 
-span{
-  font-size: 18px;
-}
-p{
-  font-size: 16px;
-}
 
+    .contenido {
+      h2 {
+        font-size: 18px;
+      }
+
+      span {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 13px;
+      }
+
+    }
   }
 
   .reservaciones {
