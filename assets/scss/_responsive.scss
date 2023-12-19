@@ -21,11 +21,12 @@
   .container-fluid-02 {
     .info-ico {
       display: flex;
+
     }
 
     img {
       width: 40px;
-      margin: 0 100px;
+      margin: 0 30px;
     }
 
     p {
@@ -36,12 +37,41 @@
       margin-top: 20px;
     }
   }
-
-  .info-text .btn-container {
-    margin-top: 30px;
-    margin-bottom: 40px;
+  .contenedor-info-02 {
+    max-width: 100%;
   }
-
+  
+  .info-local img {
+    width: 100%;
+  }
+  
+  .contenedor-info-local {
+    max-width: 100%;
+  }
+  
+  .info-text {
+    margin: 0 auto;
+    transform: translateX(40px);
+    margin-top: 50px;
+  }
+  
+  .info-text h2 {
+    margin-right: 20px;
+    /* Reduje el margen derecho para evitar desbordamiento */
+    font-size: 25px;
+  }
+  
+  .info-text p {
+    font-size: 16px;
+  }
+  
+  .btn-container {
+    margin-top: 10px;
+    /* Ajusté el margen superior */
+    margin-bottom: 20px;
+    /* Ajusté el margen inferior */
+  }
+  
   /* Estilos para el carrusel */
 
   .carousel-control-prev,
