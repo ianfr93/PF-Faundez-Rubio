@@ -208,20 +208,17 @@ li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Alinear los elementos verticalmente al centro */
   margin-bottom: 50px;
   margin-top: 50px;
 }
 .container-fluid-02 .info-ico img {
   width: 50px;
   margin-right: 20px;
-  /* Ajustar el margen derecho para el espacio */
 }
 .container-fluid-02 .info-ico p {
   font-size: 1.125rem;
   margin-top: -40px;
   margin-left: 90px;
-  /* Ajustar el margen izquierdo del texto */
 }
 
 .contenedor-info-02 {
