@@ -1371,30 +1371,11 @@ ul {
   .contenedor-info-02 {
     max-width: 100%;
   }
-  .info-local img {
-    width: 100%;
-  }
-  .contenedor-info-local {
+  .contenedor-info-02 .contenedor-info-local {
     max-width: 100%;
   }
-  .info-text {
+  .contenedor-info-02 .contenedor-info-local h2 {
     margin: 0 auto;
-    transform: translateX(40px);
-    margin-top: 50px;
-  }
-  .info-text h2 {
-    margin-right: 20px;
-    /* Reduje el margen derecho para evitar desbordamiento */
-    font-size: 25px;
-  }
-  .info-text p {
-    font-size: 16px;
-  }
-  .btn-container {
-    margin-top: 10px;
-    /* Ajusté el margen superior */
-    margin-bottom: 20px;
-    /* Ajusté el margen inferior */
   }
   /* Estilos para el carrusel */
   .carousel-control-prev,
