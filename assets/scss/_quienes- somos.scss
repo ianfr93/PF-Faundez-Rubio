@@ -93,7 +93,7 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: $font-lg;
     line-height: 1.6;
     margin-top: 50px;
     text-align: center;
@@ -106,6 +106,7 @@
 
   h1,
   p {
+    font-size: $font-lg;
     position: relative;
     z-index: 2;
   }
@@ -156,7 +157,7 @@
 .quienes-somos p {
   text-align: start;
   margin: 30px auto;
-  font-size: 16px;
+  font-size: $font-lg;
   width: 80%;
   line-height: 1.5;
 }
@@ -167,6 +168,7 @@
 
 .blog h3,
 p {
+  font-size: $font-lg;
   color: $color-cuarto;
 }
 
