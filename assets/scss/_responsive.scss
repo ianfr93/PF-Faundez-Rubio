@@ -150,6 +150,10 @@
 .subir{
   right: 5%;
   bottom: 5%;
+  transform: translateX(-80px);
+  z-index: 4;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 }
 
@@ -366,6 +370,8 @@
   .subir{
     right: 5%;
     bottom: 5%;
+    transform: translateX(-50px);
+    z-index: 4;
   }
 }
 
@@ -934,6 +940,7 @@
   .subir{
     right: 5%;
     bottom: 5%;
+    transform: translateX(-30px);
   }
 }
 
