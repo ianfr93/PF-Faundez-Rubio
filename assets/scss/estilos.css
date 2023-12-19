@@ -1568,7 +1568,7 @@ ul {
     flex-grow: 1;
   }
   .container-fluid-02 p {
-    font-size: 16px;
+    font-size: 0.875rem;
     text-align: left;
     margin-top: 20px;
   }
@@ -1617,7 +1617,7 @@ ul {
     margin: 0;
   }
   .overlay-container p {
-    font-size: 18px;
+    font-size: 0.875rem;
     margin-top: 10px;
   }
   .menu-categorias {
@@ -1652,7 +1652,7 @@ ul {
     margin-bottom: 10px;
   }
   p {
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-bottom: 10px;
   }
   .product-price,
