@@ -188,6 +188,7 @@
   }
 
   .navbar-collapse {
+    height: 100vh;
     position: absolute;
     top: 56px;
     left: 0;
@@ -221,6 +222,31 @@
 
     &:hover {
       color: $color-Bordes;
+    }
+  }
+
+  .d-lg-none {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .bton-Whatsapp {
+      margin: auto;
+      margin-top: -10px; // Ajusta según sea necesario para mover más arriba
+    }
+    .nav-link{
+      margin-top: -190px;
+    }
+
+    .redes-sociales {
+      position: relative;
+      top: 50%;
+      transform: translateX(30%);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: -110px; 
     }
   }
 
