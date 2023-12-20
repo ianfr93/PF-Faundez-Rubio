@@ -232,7 +232,7 @@
   
     .bton-Whatsapp {
       margin: auto;
-      margin-top: -10px; // Ajusta según sea necesario para mover más arriba
+      margin-top: -10px; 
     }
     .nav-link{
       margin-top: -190px;
@@ -398,6 +398,14 @@
     transform: translateX(-50px);
     z-index: 4;
   }
+  .text h3 {
+    font-size: $font-md;
+    margin-top: 10px;
+  }
+
+  .text p {
+    font-size: $font-sm;
+  }
 }
 
 
@@ -483,7 +491,7 @@
   
     .bton-Whatsapp {
       margin: auto;
-      margin-top: -10px; // Ajusta según sea necesario para mover más arriba
+      margin-top: -10px; 
     }
     .nav-link{
       margin-top: -190px;
@@ -974,11 +982,12 @@
   }
 
   .text h3 {
-    font-size: 13px;
+    font-size: $font-xs;
+    margin-top: 10px;
   }
 
   .text p {
-    font-size: $font-xs;
+    font-size: $font-xs-1;
   }
 
   .local-card {

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /** Variables colores definidos */
 /** Font sizes */
+/** 10px */
 /** 12px */
 /** 14px */
 /** 16px */
@@ -1701,6 +1702,13 @@ ul {
     transform: translateX(-50px);
     z-index: 4;
   }
+  .text h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .text p {
+    font-size: 0.875rem;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body {
@@ -2159,10 +2167,11 @@ ul {
     width: 100%;
   }
   .text h3 {
-    font-size: 13px;
+    font-size: 0.75rem;
+    margin-top: 10px;
   }
   .text p {
-    font-size: 0.75rem;
+    font-size: 0.45rem;
   }
   .local-card {
     flex-direction: column;
