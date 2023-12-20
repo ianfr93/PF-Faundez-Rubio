@@ -145,14 +145,15 @@
   .product-price small {
     margin-right: 3px;
   }
-.subir{
-  right: 5%;
-  bottom: 5%;
-  transform: translateX(-80px);
-  z-index: 4;
-  margin-bottom: 20px;
-  margin-top: 40px;
-}
+
+  .subir {
+    right: 5%;
+    bottom: 5%;
+    transform: translateX(-80px);
+    z-index: 4;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
 }
 
 
@@ -365,7 +366,7 @@
     margin-right: 3px;
   }
 
-  .subir{
+  .subir {
     right: 5%;
     bottom: 5%;
     transform: translateX(-50px);
@@ -411,12 +412,14 @@
 
   .navbar-collapse {
     position: absolute;
+    height: 100vh;
     top: 56px;
     left: 0;
     right: 0;
     background: linear-gradient(to right, $color-puro 10%, $color-logo);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.058);
     transition: background 0.3s ease;
+    
 
     &:hover {
       background: linear-gradient(to right, $color-puro 10%, $color-logo);
@@ -426,6 +429,7 @@
   .navbar-nav {
     margin-bottom: 20px;
     margin-top: 90px;
+
   }
 
   .sections-1 {
@@ -446,8 +450,32 @@
     }
   }
 
-
+  .d-lg-none {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
+    .bton-Whatsapp {
+      margin: auto;
+      margin-top: -10px; // Ajusta según sea necesario para mover más arriba
+    }
+    .nav-link{
+      margin-top: -190px;
+    }
+
+    .redes-sociales {
+      position: relative;
+      top: 50%;
+      transform: translateX(30%);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: -110px; 
+    }
+  }
+  
+
 
   .container-01 {
     max-width: 100%;
@@ -937,7 +965,7 @@
     margin: 0 auto;
   }
 
-  .subir{
+  .subir {
     right: 5%;
     bottom: 5%;
     transform: translateX(-30px);
