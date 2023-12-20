@@ -8,7 +8,7 @@
 
 
   h1 {
-    font-size: $size-encabezados;
+    font-size: $font-5xl;
     margin: 20px;
     margin-top: 60px;
     margin-left: 50px;
@@ -21,7 +21,7 @@
 
     &:hover {
       text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.937);
-      font-size: $size-encabezados;
+      font-size: $font-5xl;
       margin-left: 70px;
       text-align:start;
       text-decoration: solid;
