@@ -64,7 +64,9 @@ select {
 }
 
 .submit button {
-  @include btncolorvariation(submit, $color-logo, $color-Secundario, $color-cuarto);
+ 
+  background-color: $color-logo;
+  color: $color-cuarto;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -72,7 +74,7 @@ select {
   transition: background-color 0.3s ease;
 
   &:hover {
-      background-color: $color-Secundario;
+    background-color: $color-Secundario;
   }
 }
 
