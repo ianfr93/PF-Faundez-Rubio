@@ -86,22 +86,8 @@ select:focus {
   );
 }
 
-button {
-
-  &.prev,
-  &.next {
-    background-color: #d7d7d7;
-    color: #000000;
-  }
-
-  &:hover {
-    background-color: $button-principal;
-  }
-
-  &.prev:hover,
-  &.next:hover {
-    background-color: $color-rojo-puro;
-  }
+.button {
+  @include customButtonStyles;
 }
 
 .product-card {
