@@ -755,6 +755,8 @@ select {
   color: #ffffff;
 }
 
+/** btn colores y variaciones */
+/** breakpoint mediaquery */
 .submit button {
   background-color: #B43123;
   color: #ffffff;
