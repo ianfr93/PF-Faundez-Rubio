@@ -851,14 +851,14 @@ select:focus {
   cursor: pointer;
 }
 
-.button.prev, .button.next {
+button.prev, button.next {
   background-color: #d7d7d7;
   color: #000000;
 }
-.button:hover {
+button:hover {
   background-color: #E1B168;
 }
-.button.prev:hover, .button.next:hover {
+button.prev:hover, button.next:hover {
   background-color: #ff1900;
 }
 
