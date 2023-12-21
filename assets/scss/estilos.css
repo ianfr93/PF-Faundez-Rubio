@@ -54,7 +54,6 @@ video {
 }
 
 /** btn colores y variaciones */
-/** breakpoint mediaquery */
 @font-face {
   font-family: "Gilroy-light";
   src: url("../Fonts/Gilroy-Light.ttf") format("truetype");
@@ -378,22 +377,6 @@ li a {
   display: inline-block;
   text-align: center;
   margin-top: 30px;
-}
-@media (min-width: ) {
-  .tarjeta-1,
-  .tarjeta-2,
-  .tarjeta-3,
-  .tarjeta-4 {
-    width: calc(50% - 8px);
-  }
-}
-@media (min-width: ) {
-  .tarjeta-1,
-  .tarjeta-2,
-  .tarjeta-3,
-  .tarjeta-4 {
-    width: calc(25% - 12px);
-  }
 }
 
 .tarjeta-1 img,
@@ -756,7 +739,6 @@ select {
 }
 
 /** btn colores y variaciones */
-/** breakpoint mediaquery */
 .submit button {
   background-color: #B43123;
   color: #ffffff;
