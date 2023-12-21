@@ -1,40 +1,20 @@
 /** btn colores y variaciones */
 
-@mixin btncolorvariation($color-logo, $color-bordes, $color-main, $color-secundario) {
-    & {
-        --#{$prefix}-btn-bg: #{$color-logo};
-        --#{$prefix}-btn-color: #{$color-main};
-        --#{$prefix}-btn-hover-bg: #{$color-bordes};
-        --#{$prefix}-btn-hover-color: #{$color-secundario}; 
-
-        &.btn-outline {
-            --#{$prefix}-btn-bg: transparent;
-            --#{$prefix}-btn-color: #{$color-logo};
-            --#{$prefix}-btn-hover-bg: #{$color-bordes};
-            --#{$prefix}-btn-hover-color: #{$color-secundario};
-        }
-
-        &.btn-plain {
-            --#{$prefix}-btn-bg: transparent;
-            --#{$prefix}-btn-color: #{$color-logo};
-            --#{$prefix}-btn-hover-bg: #{$color-bordes};
-        }
-    }
-}
-
-// Uso del mixin
-.submit button {
-    @include btncolorvariation($color-logo-submit, $color-bordes-submit, $color-main-submit, $color-secundario-submit);
+@mixin submit-button() {
+    background-color: $color-logo;
+    color: $color-cuarto;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
+  
     &:hover {
-        background-color: $color-secundario-submit;
+      background-color: $color-Secundario;
     }
-}
+  }
+
+
 
 
 
