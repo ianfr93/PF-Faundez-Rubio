@@ -19,39 +19,3 @@
 
 
 
-/** breakpoint mediaquery */
-@mixin break-up ($breakpoint) {
-    @if map-has-key($breakpoints, $breakpoint) {
-        @media (min-width: map-get($breakpoints, $breakpoints)) {
-            @content;
-        }
-    }
-
-    @else {
-        @warn "`#{$breakpoints}` no es un breakpoint válido. Puedes intentar con: #{map-keys($breakpoints)}.";
-    }
-}
-
-@mixin sm() {
-    @include break-up(sm) {
-        @content;
-    }
-}
-
-@mixin md() {
-    @include break-up(md) {
-        @content;
-    }
-}
-
-@mixin lg() {
-    @include break-up(lg) {
-        @content;
-    }
-}
-
-@mixin xl() {
-    @include break-up(xl) {
-        @content;
-    }
-}
