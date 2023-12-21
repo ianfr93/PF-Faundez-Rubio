@@ -54,31 +54,23 @@ i.fa-search {
 
 /* Fin Barra search */
 
+@import "mixins";
+
 .menu-categorias {
-  list-style: none;
- 
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-  padding: 10px 0;
-
-  li {
-    margin: 0 10px;
-  }
-
-  a {
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.202);
-    color: $color-cuarto;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    border: 1px solid $color-cuarto;
-
-    &:hover {
-      background-color: $color-Bordes;
-    }
-  }
+  @include menu-categorias(
+    $list-style: none,
+    $justify-content: center,
+    $margin: 20px 0,
+    $padding: 10px 0,
+    $li-margin: 0 10px,
+    $link-bg: rgba(0, 0, 0, 0.202),
+    $link-color: $color-cuarto,
+    $link-padding: 10px 20px,
+    $link-border-radius: 5px,
+    $link-transition: background-color 0.3s,
+    $link-border: 1px solid $color-cuarto,
+    $link-hover-bg: $color-Bordes
+  );
 }
 
 select:focus {
